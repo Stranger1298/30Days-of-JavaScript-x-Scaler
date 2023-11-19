@@ -6,7 +6,7 @@ for (let i = 0; i < arr.length-1; i++) {
             let temp=arr[j+1];
             arr[j+1]=arr[j];
             arr[j]=temp;
-        } 
+        }
     }
 }
 console.log("After sorting: "+arr);
